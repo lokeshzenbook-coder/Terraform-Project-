@@ -1,6 +1,6 @@
 resource "aws_instance" "ec2" {
   count                  = 2
-  ami                    = "ami-0f58b397bc5c1f2e8"
+  ami                    = "ami-091138d0f0d41ff90"
   instance_type          = var.instance_type
   subnet_id              = var.subnet_id
   vpc_security_group_ids = [var.security_group]
